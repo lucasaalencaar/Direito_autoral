@@ -1,0 +1,13 @@
+[Unit]
+Description=Chatbot Direito da Informatica (Flask + Gemini)
+After=network.target
+
+[Service]
+User=lucas
+WorkingDirectory=/home/lucas/chatbot
+ExecStart=/home/lucas/chatbot/venv/bin/gunicorn -w 2 -b 127.0.0.1:5000 app:app
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Direito da Informática — Guia de Propriedade Intelectual</title>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="chat.css">
+</head>
+<body>
+
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">
+        <span class="logo-icon">§</span>
+        <span>Direito da Informática</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#comparativo">Comparativo</a></li>
+        <li><a href="#autoral">Direito Autoral</a></li>
+        <li><a href="#patentes">Patentes</a></li>
+        <li><a href="#circuitos">Circuitos</a></li>
+        <li><a href="#referencias">Referências</a></li>
+        <li><a href="#legislacao" class="nav-cta">Legislação</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-badge">Propriedade Intelectual · TI</div>
+      <h1>Direito Autoral e<br>Registro de Patente<br><em>na Informática</em></h1>
+      <p class="hero-sub">Guia completo sobre proteção jurídica de software, hardware e invenções tecnológicas no ordenamento jurídico brasileiro.</p>
+      <div class="hero-actions">
+        <a href="#comparativo" class="btn-primary">Ver comparativo</a>
+        <a href="#legislacao" class="btn-ghost">Legislação federal</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><strong>2 regimes</strong><span>de proteção jurídica</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><strong>50 anos</strong><span>proteção autoral de software</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><strong>20 anos</strong><span>vigência de patente de invenção</span></div>
+      </div>
+    </div>
+  </header>
+
+  <section id="sobre" class="section">
+    <div class="container">
+      <div class="section-label">Contexto jurídico</div>
+      <h2>Dois regimes, uma proteção complementar</h2>
+      <div class="sobre-grid">
+        <div class="sobre-texto">
+          <p>No âmbito do Direito da Informática e da Propriedade Intelectual, a proteção jurídica aplicável a criações, inventos e sistemas tecnológicos divide-se principalmente em dois regimes fundamentais: o <strong>Direito Autoral</strong> — focado no código-fonte, na expressão e na arquitetura textual do software — e o <strong>Registro de Patente</strong> — focado na funcionalidade técnica de hardwares, processos de engenharia e soluções técnicas embarcadas.</p>
+          <p>O ordenamento jurídico brasileiro adota o princípio da <em>coexistência de regimes</em>, significando que um mesmo sistema de TI pode ter seus diferentes componentes protegidos por institutos jurídicos distintos e complementares.</p>
+        </div>
+        <div class="sobre-cards">
+          <div class="mini-card">
+            <div class="mini-icon">©</div>
+            <h3>Direito Autoral</h3>
+            <p>Protege o código-fonte e a expressão criativa do software. Nasce automaticamente com a criação.</p>
+          </div>
+          <div class="mini-card">
+            <div class="mini-icon">®</div>
+            <h3>Registro de Patente</h3>
+            <p>Protege invenções técnicas com efeito físico. Confere exclusividade de exploração comercial.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="comparativo" class="section section-alt">
+    <div class="container">
+      <div class="section-label">Análise comparativa</div>
+      <h2>Direito Autoral vs. Registro de Patente na TI</h2>
+      <p class="section-intro">A tabela abaixo sintetiza as principais diferenças entre os dois regimes de proteção aplicáveis à tecnologia da informação.</p>
+      <div class="table-wrap">
+        <table class="comp-table">
+          <thead>
+            <tr>
+              <th>Critério</th>
+              <th>Direito Autoral (Software)</th>
+              <th>Registro de Patente (Hardware/Processos)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="criterion">Objeto Protegido</td>
+              <td>Código-fonte, código-objeto, estrutura textual, fluxogramas e documentação técnica.</td>
+              <td>Equipamentos físicos (hardware), soluções industriais, robótica, IoT e invenções implementadas por computador.</td>
+            </tr>
+            <tr>
+              <td class="criterion">O que NÃO protege</td>
+              <td>A ideia conceitual, algoritmos puros, funções matemáticas ou conceitos de negócio.</td>
+              <td>O código-fonte em si ou programas de computador isolados.</td>
+            </tr>
+            <tr>
+              <td class="criterion">Legislação Federal</td>
+              <td>Lei nº 9.609/1998 (Lei do Software) e Lei nº 9.610/1998 (Lei de Direitos Autorais).</td>
+              <td>Lei nº 9.279/1996 (Lei da Propriedade Industrial — LPI).</td>
+            </tr>
+            <tr>
+              <td class="criterion">Órgão Competente</td>
+              <td>INPI — opcional, caráter declaratório.</td>
+              <td>INPI — obrigatório, constitutivo de direito de exclusividade.</td>
+            </tr>
+            <tr>
+              <td class="criterion">Requisitos Legais</td>
+              <td>Originalidade da expressão escrita do código.</td>
+              <td>Novidade, atividade inventiva e aplicação industrial.</td>
+            </tr>
+            <tr>
+              <td class="criterion">Prazo de Validade</td>
+              <td class="highlight-cell">50 anos a partir da publicação ou criação.</td>
+              <td class="highlight-cell">20 anos a partir do depósito no INPI.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section id="autoral" class="section">
+    <div class="container">
+      <div class="section-label">Regime autoral</div>
+      <h2>Proteção do Software por Direito Autoral</h2>
+      <p class="section-intro">Disciplinada pela Lei Federal nº 9.609/1998, suplementada pela Lei nº 9.610/1998.</p>
+      <div class="aspectos-grid">
+        <div class="aspecto-card">
+          <div class="aspecto-num">01</div>
+          <h3>Nascimento do Direito</h3>
+          <p>A proteção independe de registro. O direito autoral é <strong>automático</strong> e surge com a própria criação do código.</p>
+        </div>
+        <div class="aspecto-card">
+          <div class="aspecto-num">02</div>
+          <h3>Função do Registro no INPI</h3>
+          <p>Produz efeito declaratório (<em>presunção iuris tantum</em> de autoria). Fundamental para licitações públicas e crédito de inovação.</p>
+        </div>
+        <div class="aspecto-card">
+          <div class="aspecto-num">03</div>
+          <h3>Alcance da Proteção</h3>
+          <p>Abrange linguagens de programação (C++, Python, Java, Rust), código-fonte, código-objeto, interfaces e documentação.</p>
+        </div>
+        <div class="aspecto-card">
+          <div class="aspecto-num">04</div>
+          <h3>Exceções de Uso (Art. 6º)</h3>
+          <p>Não constituem ofensa: cópia de backup, citação para fins didáticos e modificações para interoperabilidade de sistemas.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="patentes" class="section section-alt">
+    <div class="container">
+      <div class="section-label">Regime de patentes</div>
+      <h2>Registro de Patentes e Invenções na Informática</h2>
+      <p class="section-intro">Regido pela Lei Federal nº 9.279/1996 (LPI), confere o direito exclusivo de exploração comercial de uma invenção técnica.</p>
+      <div class="patente-bloco">
+        <h3>A Vedação ao Software "Em Si" e as Invenções Implementadas por Computador (IIC)</h3>
+        <p>O artigo 10, inciso V, da LPI estabelece que programas de computador <em>em si</em> não são considerados invenção. Contudo, as Diretrizes do INPI (Portaria nº 411/2020) estabelecem que sistemas que combinam software e hardware para gerar um efeito técnico no mundo físico <strong>são patenteáveis</strong>.</p>
+      </div>
+      <div class="exemplos-grid">
+        <div class="exemplo-card exemplo-sim">
+          <div class="exemplo-badge badge-sim">Patenteável</div>
+          <h4>Sistema ABS embarcado</h4>
+          <p>Sistema embarcado que utiliza algoritmo para gerenciar sensores e atuar na frenagem automática de um veículo — produz efeito técnico físico direto.</p>
+        </div>
+        <div class="exemplo-card exemplo-nao">
+          <div class="exemplo-badge badge-nao">Não Patenteável</div>
+          <h4>Aplicativo financeiro</h4>
+          <p>Aplicativo móvel de controle financeiro ou rede social em servidores convencionais — sem efeito técnico físico direto no mundo real.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="circuitos" class="section">
+    <div class="container">
+      <div class="section-label">Proteção sui generis</div>
+      <h2>Topografia de Circuitos Integrados</h2>
+      <div class="circuito-wrap">
+        <div class="circuito-texto">
+          <p>A Lei Federal nº 11.484/2007 introduziu a proteção <em>sui generis</em> para a topografia de circuitos integrados — design e disposição tridimensional de componentes em semicondutores e microchips.</p>
+          <p>Esse registro protege o projeto do hardware microeletrônico por <strong>10 anos</strong> contra cópias não autorizadas, sendo um regime distinto tanto do direito autoral quanto da patente tradicional.</p>
+        </div>
+        <div class="circuito-stat">
+          <div class="big-num">10</div>
+          <div class="big-label">anos de proteção para topografia de circuitos integrados</div>
+          <div class="big-lei">Lei Federal nº 11.484/2007</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="referencias" class="section section-alt">
+    <div class="container">
+      <div class="section-label">Fontes doutrinárias</div>
+      <h2>Referências Bibliográficas</h2>
+      <div class="ref-lista">
+        <div class="ref-item">
+          <div class="ref-autor">BARBOSA, Denis Borges.</div>
+          <div class="ref-titulo"><em>A Proteção do Software.</em> Rio de Janeiro: Lumen Juris.</div>
+          <div class="ref-desc">Análise abrangente da transição do software para o modelo autoral e do registro no INPI.</div>
+        </div>
+        <div class="ref-item">
+          <div class="ref-autor">PAESANI, Liliana Minardi.</div>
+          <div class="ref-titulo"><em>Direito de Informática: Comercialização e Desenvolvimento Internacional do Software.</em> São Paulo: Editora Atlas.</div>
+          <div class="ref-desc">Estudo sobre contratos de TI e transferência de tecnologia.</div>
+        </div>
+        <div class="ref-item">
+          <div class="ref-autor">POLI, Leonardo Macedo.</div>
+          <div class="ref-titulo"><em>Direitos de Autor e Software.</em> Belo Horizonte: Del Rey.</div>
+          <div class="ref-desc">Exame sobre a natureza jurídica do código-fonte e direitos do programador.</div>
+        </div>
+        <div class="ref-item">
+          <div class="ref-autor">MEDEIROS, Heloísa Gomes.</div>
+          <div class="ref-titulo"><em>A sobreposição de direitos de propriedade intelectual no software.</em> Tese de Doutorado — UFSC.</div>
+          <div class="ref-desc">Coexistência entre direito de autor e patente na sociedade informacional.</div>
+        </div>
+        <div class="ref-item">
+          <div class="ref-autor">INPI — Instituto Nacional da Propriedade Industrial.</div>
+          <div class="ref-titulo"><em>Diretrizes de Exame para Invenções Implementadas por Programa de Computador.</em></div>
+          <div class="ref-desc">Portaria INPI/PR nº 411/2020 — documento oficial do órgão regulador.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="legislacao" class="section">
+    <div class="container">
+      <div class="section-label">Links oficiais</div>
+      <h2>Consulta à Legislação Federal</h2>
+      <p class="section-intro">Acesse os textos integrais das normas diretamente nas fontes oficiais do governo brasileiro.</p>
+      <div class="lei-grid">
+        <a href="https://www.planalto.gov.br/ccivil_03/leis/l9609.htm" target="_blank" rel="noopener" class="lei-card">
+          <div class="lei-num">Lei nº 9.609/1998</div>
+          <div class="lei-nome">Lei do Software</div>
+          <div class="lei-desc">Proteção jurídica do programa de computador e sua comercialização no País.</div>
+          <div class="lei-link">Acessar no Planalto ↗</div>
+        </a>
+        <a href="https://www.planalto.gov.br/ccivil_03/leis/l9610.htm" target="_blank" rel="noopener" class="lei-card">
+          <div class="lei-num">Lei nº 9.610/1998</div>
+          <div class="lei-nome">Lei de Direitos Autorais</div>
+          <div class="lei-desc">Consolida a legislação sobre direitos autorais e dá outras providências.</div>
+          <div class="lei-link">Acessar no Planalto ↗</div>
+        </a>
+        <a href="https://www.planalto.gov.br/ccivil_03/leis/l9279.htm" target="_blank" rel="noopener" class="lei-card">
+          <div class="lei-num">Lei nº 9.279/1996</div>
+          <div class="lei-nome">Lei da Propriedade Industrial</div>
+          <div class="lei-desc">Regula direitos e obrigações relativos à propriedade industrial — patentes e marcas.</div>
+          <div class="lei-link">Acessar no Planalto ↗</div>
+        </a>
+        <a href="https://www.gov.br/inpi/pt-br/servicos/patentes/consultas-publicas/arquivos/2020_11_16___diretrizes_iic___versao_final.pdf" target="_blank" rel="noopener" class="lei-card">
+          <div class="lei-num">Portaria nº 411/2020</div>
+          <div class="lei-nome">Diretrizes INPI — IIC</div>
+          <div class="lei-desc">Diretrizes de Exame para Invenções Implementadas por Programa de Computador.</div>
+          <div class="lei-link">Acessar PDF oficial ↗</div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-brand"><span class="logo-icon">§</span><span>Direito da Informática</span></div>
+      <div class="footer-info">Material de referência sobre Propriedade Intelectual em TI · Baseado na legislação federal brasileira vigente.</div>
+      <div class="footer-copy">© 2026 · Fins educacionais e informativos</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="chat.js"></script>
+</body>
+</html>
